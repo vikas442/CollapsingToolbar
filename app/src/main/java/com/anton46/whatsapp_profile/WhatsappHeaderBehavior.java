@@ -100,9 +100,9 @@ public class WhatsappHeaderBehavior extends CoordinatorLayout.Behavior<HeaderVie
             mStartMarginBottom = mContext.getResources().getDimensionPixelOffset(R.dimen.header_view_start_margin_bottom);
         }
 
-        if (mMarginRight == 0) {
-            mMarginRight = mContext.getResources().getDimensionPixelOffset(R.dimen.header_view_end_margin_right);
-        }
+//        if (mMarginRight == 0) {
+//            mMarginRight = mContext.getResources().getDimensionPixelOffset(R.dimen.header_view_end_margin_right);
+//        }
 
         if (mTitleStartSize == 0) {
             mTitleEndSize = mContext.getResources().getDimensionPixelSize(R.dimen.header_view_end_text_size);
